@@ -18,6 +18,9 @@ description:
     .
     See homepage for examples of usage: <http://github.com/lymar/AhoCorasick>
 
+extra-source-files:
+    README.md
+
 library
   exposed-modules:
     Text.AhoCorasick
