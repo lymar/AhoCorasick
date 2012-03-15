@@ -1,3 +1,4 @@
+-- Simple FIFO queue in ST monad
 module Text.AhoCorasick.Internal.Deque (
       mkDQ
     , pushBack
