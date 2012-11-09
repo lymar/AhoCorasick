@@ -56,7 +56,8 @@ example3 = mapM_ print $ next sm \"ushers\" where
 @
 -}
 module Text.AhoCorasick (
-      makeStateMachine
+      StateMachine
+    , makeStateMachine
     , makeSimpleStateMachine
     , findAll
     , Position(..)
@@ -303,3 +304,4 @@ makeStateMachine kv = runST $ do
     mapM_ (\(s,v) -> addKeyVal tree s v) kv
     findFailures tree
     convertToStateMachine tree
+
