@@ -35,6 +35,8 @@ library
     ,array
     ,mtl
 
+  ghc-options:      -Wall
+
 source-repository head
   type:     git
   location: http://github.com/lymar/AhoCorasick
